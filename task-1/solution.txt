@@ -1,0 +1,5 @@
+mkdir task-1
+cd task-1
+touch solution.txt
+nano solution.txt
+
