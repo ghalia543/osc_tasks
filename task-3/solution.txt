@@ -17,7 +17,7 @@ mv logs-backup.tar /home/osc/project_files
 cd ..
 tar -xf logs-backup.tar -C logs
 find ~ -name "*.md" 
-find ~ -name "*.log"
+find /home/osc/project_files -name "*.log"
 find project_files -name file1.pdf
 find project_files -name "*.pdf"
 find /home/osc/project_files -type f
